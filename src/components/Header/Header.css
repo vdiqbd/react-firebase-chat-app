@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  height: auto;
+  top: -5px;
+  display: flex;
+  padding: 15px 0;
+  font-size: 30px;
+  color: #29ab87;
+  font-weight: 900;
+  position: relative;
+  align-items: center;
+  letter-spacing: 2.5px;
+  justify-content: center;
+  justify-self: flex-start;
+  box-shadow: 4px 4px 5px #29ab87;
+  background: hsl(0, 0%, 17%) /*#004b49*/;
+}
+
+.header svg {
+  position: absolute;
+  left: 35px;
+}

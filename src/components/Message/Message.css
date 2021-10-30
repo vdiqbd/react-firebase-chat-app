@@ -1,0 +1,36 @@
+.message-div {
+  max-width: 30%;
+  height: auto;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  position: relative;
+}
+
+.one {
+  font-size: 13px;
+  align-self: flex-start;
+  color: #29ab87;
+}
+
+.two {
+  width: 100%;
+  height: auto;
+  word-wrap: break-word;
+}
+
+#right {
+  margin: 5px 25px 5px 0px;
+  padding: 6px 12px;
+  background: #29ab87;
+  flex-direction: column;
+  align-self: end;
+}
+
+#left {
+  margin: 5px 0px 5px 23px;
+  padding: 6px 12px;
+  align-self: start;
+  flex-direction: column;
+  background: hsl(0, 0%, 17%);
+}
