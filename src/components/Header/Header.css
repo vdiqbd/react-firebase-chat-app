@@ -1,22 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:display=swap');
 .header {
   width: 100%;
   height: auto;
-  top: -5px;
+  top: 0px;
   display: flex;
-  padding: 15px 0;
+  padding: 10px 0;
+  font-family: 'Nunito', sans-serif;
   font-size: 30px;
   color: #29ab87;
-  font-weight: 900;
+  font-weight: bolder;
   position: relative;
   align-items: center;
   letter-spacing: 2.5px;
   justify-content: center;
   justify-self: flex-start;
   box-shadow: 4px 4px 5px #29ab87;
-  background: hsl(0, 0%, 17%) /*#004b49*/;
+  background: #2b2b2b;
+  z-index: 1;
 }
 
 .header svg {
   position: absolute;
-  left: 35px;
+  right: 3%;
+  justify-self: right;
 }

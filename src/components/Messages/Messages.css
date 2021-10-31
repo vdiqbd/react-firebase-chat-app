@@ -1,11 +1,11 @@
 .message {
   width: 100%;
-  height: 77%;
+  height: 80%;
   display: flex;
   overflow-y: scroll;
-  padding: 5px 0 5px 0;
+  padding: 5px 0;
   flex-direction: column;
-  background: hsl(0, 0%, 10%);
+  background: #16161d;
 }
 
 ::-webkit-scrollbar {
