@@ -1,5 +1,5 @@
 .message-div {
-  max-width: 30%;
+  max-width: 45%;
   height: auto;
   display: flex;
   border-radius: 10px;
@@ -25,6 +25,7 @@
   background: #29ab87;
   flex-direction: column;
   align-self: end;
+  z-index: 0;
 }
 
 #left {
@@ -32,5 +33,5 @@
   padding: 6px 12px;
   align-self: start;
   flex-direction: column;
-  background: hsl(0, 0%, 17%);
+  background: #2b2b2b;
 }
